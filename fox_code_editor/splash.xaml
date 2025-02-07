@@ -30,13 +30,13 @@
                 <Border.Clip>
                     <RectangleGeometry RadiusX="10" RadiusY="10" Rect="0, 0, 615, 283"/>
                 </Border.Clip>
-                <Image Source="/fce_splash_3_01.png" Height="283" Width="615"/>
+                <Image Source="/fce_3_2_splash.jpg" Height="284" Margin="-45,-1,-13,1"/>
 
             </Border>
             <Border CornerRadius="10" BorderThickness="1" BorderBrush="#FFDEDEDE"></Border>
             <Canvas>
- 
-                        <Rectangle
+
+                <Rectangle
                           x:Name="rect"
                           Width="80"
                           Height="5"
@@ -46,14 +46,14 @@
                           Canvas.Left="0"
                           Canvas.Bottom="0"
                           >
-                            
-                        <Rectangle.Triggers>
-                            <EventTrigger RoutedEvent="Loaded">
-                                <BeginStoryboard Storyboard="{StaticResource rectAnimation}" />
-                            </EventTrigger>
-                        </Rectangle.Triggers>
-                    </Rectangle>
-              
+
+                    <Rectangle.Triggers>
+                        <EventTrigger RoutedEvent="Loaded">
+                            <BeginStoryboard Storyboard="{StaticResource rectAnimation}" />
+                        </EventTrigger>
+                    </Rectangle.Triggers>
+                </Rectangle>
+
             </Canvas>
 
         </Grid>
