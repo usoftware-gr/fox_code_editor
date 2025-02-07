@@ -16,7 +16,7 @@
         KeyDown="textEditor_KeyDown"
         x:Class="fox_code_editor.MainWindow"
         Background="#fff"
-        mc:Ignorable="d" Height="750" Width="1200" Title="Fox Code Editor beta3.01" 
+        mc:Ignorable="d" Height="750" Width="1200" Title="Fox Code Editor beta3.2" 
     >
     
     
